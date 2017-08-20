@@ -34,7 +34,7 @@ IFFTOutput = ifft(symIFFT);% Number of IFFT is 256
 IFFTOutput((IFFTOutput<0))=0;% ACO
 
 si=1;
-s1=zeros(1,maxSNR - minSNR);
+s1=zeros(1,maxSNR - minSNR + 1);
 fftSymbolForDemod = zeros(numOfSymbolInAnOFDMSymbol, numOfOFDMSymbol);
 for snr = minSNR:acrSNR:maxSNR
     receiveSymbol=awgn(IFFTOutput,2*snr,'measured');
