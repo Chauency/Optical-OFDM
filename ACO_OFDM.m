@@ -1,11 +1,11 @@
-/*************************************************************************
-    > Copyright (C) 2017 All rights reserved.
-    > File Name: ACO_OFDM.m
-    > Author: Chauency
-    > Mail: chauencychan@gmail.com
-    > Created Time: 2017-08-20
-    > Description: Matlab code for ACO-OFDM,
- ************************************************************************/
+%/*************************************************************************
+%    > Copyright (C) 2017 All rights reserved.
+%    > File Name: ACO_OFDM.m
+%    > Author: Chauency
+%    > Mail: chauencychan@gmail.com
+%    > Created Time: 2017-08-20
+%   > Description: Matlab code for ACO-OFDM,
+% ************************************************************************/
 clc;
 clear;
 maxSNR = 15;
